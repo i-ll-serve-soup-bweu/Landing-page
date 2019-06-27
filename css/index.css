@@ -13,6 +13,7 @@ button {
   border-radius: 5px;
   font-weight: 600;
   margin-top: 30px;
+  cursor: pointer;
 }
 .inv {
   padding: 8px 15px;
@@ -108,7 +109,7 @@ header .inv {
   padding: 10px 50px;
 }
 .middle {
-  padding: 130px 60px;
+  padding-top: 130px;
 }
 .middle .info {
   display: flex;
@@ -128,6 +129,28 @@ header .inv {
 .middle .middle-title p {
   color: #7cb342;
   font-size: 12px;
+}
+.about {
+  width: 100%;
+  padding: 20px 0;
+}
+.about .team {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.about .team .person {
+  display: flex;
+  flex-direction: column;
+}
+.about .team .person img {
+  height: 150px;
+  width: 150px;
+}
+.about .team .person .links {
+  display: flex;
+  flex-direction: column;
 }
 .last {
   background-image: url('../img/saile-ilyas-SiwrpBnxDww-unsplash.jpg');
