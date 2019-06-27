@@ -48,7 +48,15 @@ header {
   display: flex;
 }
 .footer-blue {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #d6f0fa;
+  border-top: 2px solid #b1e7fa;
+}
+.footer-blue .text {
   display: flex;
   flex-direction: row;
-  background-color: lightblue;
+  justify-content: space-between;
+  width: 90%;
 }
