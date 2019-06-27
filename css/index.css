@@ -163,11 +163,11 @@ header .inv {
 }
 .last .upgrade {
   background-color: #3eb2cf;
-  width: 98%;
+  width: 98vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  padding: 15px 0;
 }
 .last .upgrade h2 {
   color: white;
