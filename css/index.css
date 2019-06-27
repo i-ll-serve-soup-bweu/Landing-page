@@ -1,0 +1,231 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  padding: 8px 25px;
+  color: white;
+  background-color: #8dbd53;
+  border: 1px solid #8dbd53;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.inv {
+  padding: 8px 15px;
+  color: #8dbd53;
+  background-color: white;
+  border: 1px solid #8dbd53;
+  border-radius: 5px;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #292929;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Roboto Slab', serif;
+}
+h1 {
+  font-size: 32px;
+}
+a,
+button,
+p {
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-size: 14px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  height: 35px;
+  padding-bottom: 10px;
+  background-color: white;
+  top: 0px;
+}
+header h3 {
+  color: #7cb342;
+}
+header .inv {
+  margin-left: 8px;
+}
+.top {
+  background-image: url("../img/benjamin-massello-M1IKt__JX0k-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 98vw;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top .top-text {
+  width: 90%;
+  max-width: 800px;
+  color: white;
+  padding-top: 30px;
+}
+.top .top-text h1 {
+  line-height: 0.3;
+}
+.top .card {
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  display: flex;
+  border-radius: 5px;
+  position: relative;
+  bottom: -50px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.21);
+}
+.top .card .card-img {
+  background-color: #b1e7fa;
+  width: 450px;
+  border-radius: 5px;
+}
+.top .card .card-img img {
+  height: 120px;
+  padding: 12px 60px 12px 35px;
+}
+.top .card .card-text {
+  padding: 10px 50px;
+}
+.middle {
+  padding-top: 130px;
+}
+.middle .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle .info img {
+  height: 260px;
+  padding: 0 20px;
+}
+.middle .info .text {
+  max-width: 350px;
+}
+.middle .middle-title {
+  line-height: 0.5;
+}
+.middle .middle-title p {
+  color: #7cb342;
+  font-size: 12px;
+}
+.about {
+  width: 100%;
+  padding: 20px 0;
+}
+.about .team {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.about .team .person {
+  display: flex;
+  flex-direction: column;
+}
+.about .team .person img {
+  height: 150px;
+  width: 150px;
+}
+.about .team .person .links {
+  display: flex;
+  flex-direction: column;
+}
+.last {
+  background-image: url('../img/saile-ilyas-SiwrpBnxDww-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 98vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last .upgrade {
+  background-color: #3eb2cf;
+  width: 98vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
+}
+.last .upgrade h2 {
+  color: white;
+  width: 90%;
+  max-width: 800px;
+}
+.last .last-text {
+  width: 90%;
+  max-width: 800px;
+  color: white;
+  padding: 20px 0 50px 0;
+}
+.last .last-text h1 {
+  line-height: 0.3;
+}
+footer {
+  width: 98vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+footer h3,
+footer h4 {
+  color: #7cb342;
+}
+.footer-links {
+  width: 90%;
+  max-width: 800px;
+  margin-top: 25px;
+  padding: 20px 0 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-links .footer-sec {
+  display: flex;
+  flex-direction: column;
+}
+.footer-links .footer-sec .contact {
+  text-align: center;
+}
+.footer-links .footer-sec a {
+  padding-bottom: 6px;
+}
+.footer-links .footer-sec .social-icons img {
+  height: 20px;
+}
+.footer-blue {
+  width: 98vw;
+  display: flex;
+  justify-content: center;
+  background-color: #d6f0fa;
+  border-top: 2px solid #b1e7fa;
+}
+.footer-blue .text {
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
