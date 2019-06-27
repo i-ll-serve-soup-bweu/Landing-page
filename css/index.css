@@ -11,19 +11,49 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 30px;
+  max-width: 800px;
+  height: 35px;
+  padding-bottom: 10px;
   background-color: white;
+  top: 0px;
 }
 .top {
   background-color: brown;
-  width: 100vh;
+  width: 98vw;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top .top-text {
+  width: 90%;
+  max-width: 800px;
+  color: white;
+  padding-top: 30px;
 }
 .top .card {
   width: 90%;
+  max-width: 800px;
   background-color: white;
+  display: flex;
+  border-radius: 5px;
+  position: relative;
+  bottom: -50px;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.21);
+}
+.top .card .card-img {
+  background-color: #b1e7fa;
+  width: 350px;
+  height: 150px;
+  border-radius: 5px;
+}
+.top .card .card-text {
+  padding: 10px 50px;
 }
 .middle {
-  padding: 10px 40px;
+  padding: 60px;
 }
 .middle .info {
   display: flex;
