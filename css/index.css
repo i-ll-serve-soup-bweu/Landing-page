@@ -5,6 +5,27 @@
   flex-direction: column;
   align-items: center;
 }
+a {
+  text-decoration: none;
+  color: #292929;
+}
+a:hover {
+  text-decoration: underline;
+}
+button {
+  padding: 8px 25px;
+  color: white;
+  background-color: #8dbd53;
+  border: 1px solid #8dbd53;
+  border-radius: 5px;
+}
+.inv {
+  padding: 8px 15px;
+  color: #8dbd53;
+  background-color: white;
+  border: 1px solid #8dbd53;
+  border-radius: 5px;
+}
 header {
   display: flex;
   flex-direction: row;
@@ -17,8 +38,16 @@ header {
   background-color: white;
   top: 0px;
 }
+header h3 {
+  color: #7cb342;
+}
+header .inv {
+  margin-left: 8px;
+}
 .top {
-  background-color: brown;
+  background-image: url("../img/benjamin-massello-M1IKt__JX0k-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
   width: 98vw;
   height: 300px;
   display: flex;
@@ -69,6 +98,8 @@ header {
 }
 .last {
   background-image: url('../img/saile-ilyas-SiwrpBnxDww-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
   width: 98vw;
   display: flex;
   flex-direction: column;
@@ -98,7 +129,11 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #f5f3f3;
+  background-color: #f1f1f1;
+}
+footer h3,
+footer h4 {
+  color: #7cb342;
 }
 .footer-links {
   width: 90%;
@@ -114,6 +149,9 @@ footer {
 }
 .footer-links .footer-sec .contact {
   text-align: center;
+}
+.footer-links .footer-sec a {
+  padding-bottom: 6px;
 }
 .footer-links .footer-sec .social-icons a {
   width: 15px;
